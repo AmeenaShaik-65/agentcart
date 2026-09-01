@@ -1,0 +1,53 @@
+{
+  "info": {
+    "name": "AgentCart B2B Merchant API - Razorpay Buildathon",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Check Server Status",
+      "request": {
+        "method": "GET",
+        "url": "http://127.0.0.1:8000/"
+      }
+    },
+    {
+      "name": "Get Agent-Readable Catalog",
+      "request": {
+        "method": "GET",
+        "url": "http://127.0.0.1:8000/catalog"
+      }
+    },
+    {
+      "name": "Execute Agent Checkout (Bundle Discount)",
+      "request": {
+        "method": "POST",
+        "header": [{"key": "Content-Type", "value": "application/json"}],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"ai_buyer_id\": \"robot_buyer_99\",\n  \"items\": [\n    {\"product_id\": \"item_001\", \"quantity\": 1},\n    {\"product_id\": \"item_002\", \"quantity\": 1}\n  ]\n}"
+        },
+        "url": "http://127.0.0.1:8000/agent/checkout"
+      }
+    },
+    {
+      "name": "Test Guardrail Block (>5000 INR)",
+      "request": {
+        "method": "POST",
+        "header": [{"key": "Content-Type", "value": "application/json"}],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"ai_buyer_id\": \"rogue_robot_01\",\n  \"items\": [\n    {\"product_id\": \"item_001\", \"quantity\": 5}\n  ]\n}"
+        },
+        "url": "http://127.0.0.1:8000/agent/checkout"
+      }
+    },
+    {
+      "name": "View Immutable Audit Logs",
+      "request": {
+        "method": "GET",
+        "url": "http://127.0.0.1:8000/audit/logs"
+      }
+    }
+  ]
+}

@@ -1,0 +1,689 @@
+[
+    {
+        "timestamp": "2026-08-30T02:06:57.609796",
+        "event_type": "UNEXPECTED_ERROR",
+        "details": {
+            "error": "'CartItem' object is not subscriptable"
+        }
+    },
+    {
+        "timestamp": "2026-08-30T02:06:57.813247",
+        "event_type": "CHECKOUT_SUCCESS",
+        "details": {
+            "buyer": "test_robot_002",
+            "items": [
+                {
+                    "name": "Superfast 65W Phone Charger",
+                    "qty": 1,
+                    "subtotal": 1299
+                },
+                {
+                    "name": "Type-C Braided Cable 2m",
+                    "qty": 1,
+                    "subtotal": 499
+                }
+            ],
+            "total_INR": 1798,
+            "razorpay_order": "order_test_rcpt_test_r_1798"
+        }
+    },
+    {
+        "timestamp": "2026-08-30T02:11:10.764013",
+        "event_type": "CHECKOUT_FAILED",
+        "details": {
+            "buyer": "test_robot_001",
+            "reason": "Out of stock for Superfast 65W Phone Charger"
+        }
+    },
+    {
+        "timestamp": "2026-08-30T02:11:10.911589",
+        "event_type": "CHECKOUT_SUCCESS",
+        "details": {
+            "buyer": "test_robot_002",
+            "subtotal_INR": 1798,
+            "discount_applied_INR": 179,
+            "final_amount_INR": 1619,
+            "razorpay_order": "order_test_rcpt_test_r_1619"
+        }
+    },
+    {
+        "timestamp": "2026-08-30T02:12:41.881252",
+        "event_type": "GUARDRAIL_BREACH_BLOCKED",
+        "details": {
+            "attempted_amount": 6495,
+            "limit": 5000
+        }
+    },
+    {
+        "timestamp": "2026-08-30T02:12:41.921201",
+        "event_type": "CHECKOUT_SUCCESS",
+        "details": {
+            "buyer": "test_robot_002",
+            "subtotal_INR": 1798,
+            "discount_applied_INR": 179,
+            "final_amount_INR": 1619,
+            "razorpay_order": "order_test_rcpt_test_r_1619"
+        }
+    },
+    {
+        "timestamp": "2026-08-30T06:44:38.155215",
+        "event_type": "CHECKOUT_SUCCESS",
+        "details": {
+            "buyer": "dashboard_robot_client",
+            "subtotal_INR": 1798,
+            "discount_applied_INR": 179,
+            "final_amount_INR": 1619,
+            "razorpay_order": "order_test_rcpt_dashbo_1619"
+        }
+    },
+    {
+        "timestamp": "2026-08-30T06:44:42.048478",
+        "event_type": "CHECKOUT_SUCCESS",
+        "details": {
+            "buyer": "dashboard_robot_client",
+            "subtotal_INR": 1798,
+            "discount_applied_INR": 179,
+            "final_amount_INR": 1619,
+            "razorpay_order": "order_test_rcpt_dashbo_1619"
+        }
+    },
+    {
+        "timestamp": "2026-08-30T06:44:45.717897",
+        "event_type": "CAMPAIGN_ORCHESTRATED",
+        "details": {
+            "campaign_id": "camp_flash_item_002_20260830",
+            "target_product": "Type-C Braided Cable 2m",
+            "strategy": "Automated Volume Push & Cross-Sell Bundle",
+            "status": "active_broadcasted_to_ai_buyers"
+        }
+    },
+    {
+        "timestamp": "2026-08-30T06:45:07.086189",
+        "event_type": "CHECKOUT_SUCCESS",
+        "details": {
+            "buyer": "dashboard_robot_client",
+            "subtotal_INR": 1798,
+            "discount_applied_INR": 179,
+            "final_amount_INR": 1619,
+            "razorpay_order": "order_test_rcpt_dashbo_1619"
+        }
+    },
+    {
+        "timestamp": "2026-08-30T06:45:12.803383",
+        "event_type": "CAMPAIGN_ORCHESTRATED",
+        "details": {
+            "campaign_id": "camp_flash_item_002_20260830",
+            "target_product": "Type-C Braided Cable 2m",
+            "strategy": "Automated Volume Push & Cross-Sell Bundle",
+            "status": "active_broadcasted_to_ai_buyers"
+        }
+    },
+    {
+        "timestamp": "2026-08-30T06:50:09.439481",
+        "event_type": "CHECKOUT_SUCCESS",
+        "details": {
+            "buyer": "dashboard_robot_client",
+            "subtotal_INR": 1798,
+            "discount_applied_INR": 179,
+            "final_amount_INR": 1619,
+            "razorpay_order": "order_test_rcpt_dashbo_1619"
+        }
+    },
+    {
+        "timestamp": "2026-08-30T06:50:11.727268",
+        "event_type": "CHECKOUT_SUCCESS",
+        "details": {
+            "buyer": "dashboard_robot_client",
+            "subtotal_INR": 1798,
+            "discount_applied_INR": 179,
+            "final_amount_INR": 1619,
+            "razorpay_order": "order_test_rcpt_dashbo_1619"
+        }
+    },
+    {
+        "timestamp": "2026-08-30T06:50:14.237062",
+        "event_type": "CAMPAIGN_ORCHESTRATED",
+        "details": {
+            "campaign_id": "camp_flash_item_002_20260830",
+            "target_product": "Type-C Braided Cable 2m",
+            "strategy": "Automated Volume Push & Cross-Sell Bundle",
+            "status": "active_broadcasted_to_ai_buyers"
+        }
+    },
+    {
+        "timestamp": "2026-08-30T06:52:07.671970",
+        "event_type": "CHECKOUT_SUCCESS",
+        "details": {
+            "buyer": "dashboard_robot_client",
+            "subtotal_INR": 1798,
+            "discount_applied_INR": 179,
+            "final_amount_INR": 1619,
+            "razorpay_order": "order_test_rcpt_dashbo_1619"
+        }
+    },
+    {
+        "timestamp": "2026-08-30T06:52:08.846352",
+        "event_type": "CAMPAIGN_ORCHESTRATED",
+        "details": {
+            "campaign_id": "camp_flash_item_002_20260830",
+            "target_product": "Type-C Braided Cable 2m",
+            "strategy": "Automated Volume Push & Cross-Sell Bundle",
+            "status": "active_broadcasted_to_ai_buyers"
+        }
+    },
+    {
+        "timestamp": "2026-08-30T06:52:11.085031",
+        "event_type": "CHECKOUT_SUCCESS",
+        "details": {
+            "buyer": "dashboard_robot_client",
+            "subtotal_INR": 1798,
+            "discount_applied_INR": 179,
+            "final_amount_INR": 1619,
+            "razorpay_order": "order_test_rcpt_dashbo_1619"
+        }
+    },
+    {
+        "timestamp": "2026-08-30T06:52:12.897012",
+        "event_type": "CAMPAIGN_ORCHESTRATED",
+        "details": {
+            "campaign_id": "camp_flash_item_002_20260830",
+            "target_product": "Type-C Braided Cable 2m",
+            "strategy": "Automated Volume Push & Cross-Sell Bundle",
+            "status": "active_broadcasted_to_ai_buyers"
+        }
+    },
+    {
+        "timestamp": "2026-09-01T02:59:49.704336",
+        "event_type": "CHECKOUT_SUCCESS",
+        "details": {
+            "buyer": "dashboard_robot_client",
+            "subtotal_INR": 1798,
+            "discount_applied_INR": 179,
+            "final_amount_INR": 1619,
+            "razorpay_order": "order_test_rcpt_dashbo_1619"
+        }
+    },
+    {
+        "timestamp": "2026-09-01T02:59:57.616537",
+        "event_type": "CAMPAIGN_ORCHESTRATED",
+        "details": {
+            "campaign_id": "camp_flash_item_002_20260901",
+            "target_product": "Type-C Braided Cable 2m",
+            "strategy": "Automated Volume Push & Cross-Sell Bundle",
+            "status": "active_broadcasted_to_ai_buyers"
+        }
+    },
+    {
+        "timestamp": "2026-09-01T03:00:14.037864",
+        "event_type": "CHECKOUT_SUCCESS",
+        "details": {
+            "buyer": "dashboard_robot_client",
+            "subtotal_INR": 1798,
+            "discount_applied_INR": 179,
+            "final_amount_INR": 1619,
+            "razorpay_order": "order_test_rcpt_dashbo_1619"
+        }
+    },
+    {
+        "timestamp": "2026-09-01T03:00:16.066573",
+        "event_type": "CAMPAIGN_ORCHESTRATED",
+        "details": {
+            "campaign_id": "camp_flash_item_002_20260901",
+            "target_product": "Type-C Braided Cable 2m",
+            "strategy": "Automated Volume Push & Cross-Sell Bundle",
+            "status": "active_broadcasted_to_ai_buyers"
+        }
+    },
+    {
+        "timestamp": "2026-09-01T03:00:17.421718",
+        "event_type": "CAMPAIGN_ORCHESTRATED",
+        "details": {
+            "campaign_id": "camp_flash_item_002_20260901",
+            "target_product": "Type-C Braided Cable 2m",
+            "strategy": "Automated Volume Push & Cross-Sell Bundle",
+            "status": "active_broadcasted_to_ai_buyers"
+        }
+    },
+    {
+        "timestamp": "2026-09-01T03:00:19.584000",
+        "event_type": "CHECKOUT_SUCCESS",
+        "details": {
+            "buyer": "dashboard_robot_client",
+            "subtotal_INR": 1798,
+            "discount_applied_INR": 179,
+            "final_amount_INR": 1619,
+            "razorpay_order": "order_test_rcpt_dashbo_1619"
+        }
+    },
+    {
+        "timestamp": "2026-09-01T03:01:14.887462",
+        "event_type": "CHECKOUT_SUCCESS",
+        "details": {
+            "buyer": "dashboard_robot_client",
+            "subtotal_INR": 1798,
+            "discount_applied_INR": 179,
+            "final_amount_INR": 1619,
+            "razorpay_order": "order_test_rcpt_dashbo_1619"
+        }
+    },
+    {
+        "timestamp": "2026-09-01T03:01:18.173338",
+        "event_type": "CHECKOUT_SUCCESS",
+        "details": {
+            "buyer": "dashboard_robot_client",
+            "subtotal_INR": 1798,
+            "discount_applied_INR": 179,
+            "final_amount_INR": 1619,
+            "razorpay_order": "order_test_rcpt_dashbo_1619"
+        }
+    },
+    {
+        "timestamp": "2026-09-01T03:01:30.430424",
+        "event_type": "CHECKOUT_SUCCESS",
+        "details": {
+            "buyer": "dashboard_robot_client",
+            "subtotal_INR": 1798,
+            "discount_applied_INR": 179,
+            "final_amount_INR": 1619,
+            "razorpay_order": "order_test_rcpt_dashbo_1619"
+        }
+    },
+    {
+        "timestamp": "2026-09-01T03:01:31.713578",
+        "event_type": "CHECKOUT_SUCCESS",
+        "details": {
+            "buyer": "dashboard_robot_client",
+            "subtotal_INR": 1798,
+            "discount_applied_INR": 179,
+            "final_amount_INR": 1619,
+            "razorpay_order": "order_test_rcpt_dashbo_1619"
+        }
+    },
+    {
+        "timestamp": "2026-09-01T03:01:33.105968",
+        "event_type": "CHECKOUT_SUCCESS",
+        "details": {
+            "buyer": "dashboard_robot_client",
+            "subtotal_INR": 1798,
+            "discount_applied_INR": 179,
+            "final_amount_INR": 1619,
+            "razorpay_order": "order_test_rcpt_dashbo_1619"
+        }
+    },
+    {
+        "timestamp": "2026-09-01T03:01:34.788409",
+        "event_type": "CHECKOUT_SUCCESS",
+        "details": {
+            "buyer": "dashboard_robot_client",
+            "subtotal_INR": 1798,
+            "discount_applied_INR": 179,
+            "final_amount_INR": 1619,
+            "razorpay_order": "order_test_rcpt_dashbo_1619"
+        }
+    },
+    {
+        "timestamp": "2026-09-01T03:01:36.717969",
+        "event_type": "CHECKOUT_SUCCESS",
+        "details": {
+            "buyer": "dashboard_robot_client",
+            "subtotal_INR": 1798,
+            "discount_applied_INR": 179,
+            "final_amount_INR": 1619,
+            "razorpay_order": "order_test_rcpt_dashbo_1619"
+        }
+    },
+    {
+        "timestamp": "2026-09-01T03:01:38.272680",
+        "event_type": "CHECKOUT_SUCCESS",
+        "details": {
+            "buyer": "dashboard_robot_client",
+            "subtotal_INR": 1798,
+            "discount_applied_INR": 179,
+            "final_amount_INR": 1619,
+            "razorpay_order": "order_test_rcpt_dashbo_1619"
+        }
+    },
+    {
+        "timestamp": "2026-09-01T03:02:21.797372",
+        "event_type": "CHECKOUT_SUCCESS",
+        "details": {
+            "buyer": "dashboard_robot_client",
+            "subtotal_INR": 1798,
+            "discount_applied_INR": 179,
+            "final_amount_INR": 1619,
+            "razorpay_order": "order_test_rcpt_dashbo_1619"
+        }
+    },
+    {
+        "timestamp": "2026-09-01T03:02:23.535695",
+        "event_type": "CHECKOUT_SUCCESS",
+        "details": {
+            "buyer": "dashboard_robot_client",
+            "subtotal_INR": 1798,
+            "discount_applied_INR": 179,
+            "final_amount_INR": 1619,
+            "razorpay_order": "order_test_rcpt_dashbo_1619"
+        }
+    },
+    {
+        "timestamp": "2026-09-01T03:02:25.108653",
+        "event_type": "CHECKOUT_SUCCESS",
+        "details": {
+            "buyer": "dashboard_robot_client",
+            "subtotal_INR": 1798,
+            "discount_applied_INR": 179,
+            "final_amount_INR": 1619,
+            "razorpay_order": "order_test_rcpt_dashbo_1619"
+        }
+    },
+    {
+        "timestamp": "2026-09-01T03:02:26.890277",
+        "event_type": "CHECKOUT_SUCCESS",
+        "details": {
+            "buyer": "dashboard_robot_client",
+            "subtotal_INR": 1798,
+            "discount_applied_INR": 179,
+            "final_amount_INR": 1619,
+            "razorpay_order": "order_test_rcpt_dashbo_1619"
+        }
+    },
+    {
+        "timestamp": "2026-09-01T03:02:29.894859",
+        "event_type": "CAMPAIGN_ORCHESTRATED",
+        "details": {
+            "campaign_id": "camp_flash_item_002_20260901",
+            "target_product": "Type-C Braided Cable 2m",
+            "strategy": "Automated Volume Push & Cross-Sell Bundle",
+            "status": "active_broadcasted_to_ai_buyers"
+        }
+    },
+    {
+        "timestamp": "2026-09-01T03:02:32.478418",
+        "event_type": "CAMPAIGN_ORCHESTRATED",
+        "details": {
+            "campaign_id": "camp_flash_item_002_20260901",
+            "target_product": "Type-C Braided Cable 2m",
+            "strategy": "Automated Volume Push & Cross-Sell Bundle",
+            "status": "active_broadcasted_to_ai_buyers"
+        }
+    },
+    {
+        "timestamp": "2026-09-01T03:07:16.666665",
+        "event_type": "CHECKOUT_SUCCESS",
+        "details": {
+            "buyer": "dashboard_robot_client",
+            "subtotal_INR": 1798,
+            "discount_applied_INR": 179,
+            "final_amount_INR": 1619,
+            "razorpay_order": "order_test_rcpt_dashbo_1619"
+        }
+    },
+    {
+        "timestamp": "2026-09-01T03:07:17.885749",
+        "event_type": "CHECKOUT_SUCCESS",
+        "details": {
+            "buyer": "dashboard_robot_client",
+            "subtotal_INR": 1798,
+            "discount_applied_INR": 179,
+            "final_amount_INR": 1619,
+            "razorpay_order": "order_test_rcpt_dashbo_1619"
+        }
+    },
+    {
+        "timestamp": "2026-09-01T03:07:20.505624",
+        "event_type": "CHECKOUT_SUCCESS",
+        "details": {
+            "buyer": "dashboard_robot_client",
+            "subtotal_INR": 1798,
+            "discount_applied_INR": 179,
+            "final_amount_INR": 1619,
+            "razorpay_order": "order_test_rcpt_dashbo_1619"
+        }
+    },
+    {
+        "timestamp": "2026-09-01T03:07:24.199804",
+        "event_type": "CAMPAIGN_ORCHESTRATED",
+        "details": {
+            "campaign_id": "camp_flash_item_002_20260901",
+            "target_product": "Type-C Braided Cable 2m",
+            "strategy": "Automated Volume Push & Cross-Sell Bundle",
+            "status": "active_broadcasted_to_ai_buyers"
+        }
+    },
+    {
+        "timestamp": "2026-09-01T03:07:36.217898",
+        "event_type": "CHECKOUT_SUCCESS",
+        "details": {
+            "buyer": "dashboard_robot_client",
+            "subtotal_INR": 1798,
+            "discount_applied_INR": 179,
+            "final_amount_INR": 1619,
+            "razorpay_order": "order_test_rcpt_dashbo_1619"
+        }
+    },
+    {
+        "timestamp": "2026-09-01T03:07:42.796918",
+        "event_type": "CAMPAIGN_ORCHESTRATED",
+        "details": {
+            "campaign_id": "camp_flash_item_002_20260901",
+            "target_product": "Type-C Braided Cable 2m",
+            "strategy": "Automated Volume Push & Cross-Sell Bundle",
+            "status": "active_broadcasted_to_ai_buyers"
+        }
+    },
+    {
+        "timestamp": "2026-09-01T03:07:59.460843",
+        "event_type": "CHECKOUT_SUCCESS",
+        "details": {
+            "buyer": "dashboard_robot_client",
+            "subtotal_INR": 1798,
+            "discount_applied_INR": 179,
+            "final_amount_INR": 1619,
+            "razorpay_order": "order_test_rcpt_dashbo_1619"
+        }
+    },
+    {
+        "timestamp": "2026-09-01T03:08:00.967335",
+        "event_type": "CHECKOUT_SUCCESS",
+        "details": {
+            "buyer": "dashboard_robot_client",
+            "subtotal_INR": 1798,
+            "discount_applied_INR": 179,
+            "final_amount_INR": 1619,
+            "razorpay_order": "order_test_rcpt_dashbo_1619"
+        }
+    },
+    {
+        "timestamp": "2026-09-01T03:08:02.845393",
+        "event_type": "CHECKOUT_SUCCESS",
+        "details": {
+            "buyer": "dashboard_robot_client",
+            "subtotal_INR": 1798,
+            "discount_applied_INR": 179,
+            "final_amount_INR": 1619,
+            "razorpay_order": "order_test_rcpt_dashbo_1619"
+        }
+    },
+    {
+        "timestamp": "2026-09-01T03:08:03.906867",
+        "event_type": "CHECKOUT_SUCCESS",
+        "details": {
+            "buyer": "dashboard_robot_client",
+            "subtotal_INR": 1798,
+            "discount_applied_INR": 179,
+            "final_amount_INR": 1619,
+            "razorpay_order": "order_test_rcpt_dashbo_1619"
+        }
+    },
+    {
+        "timestamp": "2026-09-01T03:08:04.821021",
+        "event_type": "CHECKOUT_SUCCESS",
+        "details": {
+            "buyer": "dashboard_robot_client",
+            "subtotal_INR": 1798,
+            "discount_applied_INR": 179,
+            "final_amount_INR": 1619,
+            "razorpay_order": "order_test_rcpt_dashbo_1619"
+        }
+    },
+    {
+        "timestamp": "2026-09-01T03:08:05.717572",
+        "event_type": "CHECKOUT_SUCCESS",
+        "details": {
+            "buyer": "dashboard_robot_client",
+            "subtotal_INR": 1798,
+            "discount_applied_INR": 179,
+            "final_amount_INR": 1619,
+            "razorpay_order": "order_test_rcpt_dashbo_1619"
+        }
+    },
+    {
+        "timestamp": "2026-09-01T03:08:06.780051",
+        "event_type": "CHECKOUT_SUCCESS",
+        "details": {
+            "buyer": "dashboard_robot_client",
+            "subtotal_INR": 1798,
+            "discount_applied_INR": 179,
+            "final_amount_INR": 1619,
+            "razorpay_order": "order_test_rcpt_dashbo_1619"
+        }
+    },
+    {
+        "timestamp": "2026-09-01T03:08:09.963831",
+        "event_type": "CHECKOUT_SUCCESS",
+        "details": {
+            "buyer": "dashboard_robot_client",
+            "subtotal_INR": 1798,
+            "discount_applied_INR": 179,
+            "final_amount_INR": 1619,
+            "razorpay_order": "order_test_rcpt_dashbo_1619"
+        }
+    },
+    {
+        "timestamp": "2026-09-01T03:10:33.462760",
+        "event_type": "CHECKOUT_SUCCESS",
+        "details": {
+            "buyer": "dashboard_robot_client",
+            "subtotal_INR": 1798,
+            "discount_applied_INR": 179,
+            "final_amount_INR": 1619,
+            "razorpay_order": "order_test_rcpt_dashbo_1619"
+        }
+    },
+    {
+        "timestamp": "2026-09-01T03:10:43.924373",
+        "event_type": "CHECKOUT_SUCCESS",
+        "details": {
+            "buyer": "dashboard_robot_client",
+            "subtotal_INR": 1798,
+            "discount_applied_INR": 179,
+            "final_amount_INR": 1619,
+            "razorpay_order": "order_test_rcpt_dashbo_1619"
+        }
+    },
+    {
+        "timestamp": "2026-09-01T03:10:47.596586",
+        "event_type": "CAMPAIGN_ORCHESTRATED",
+        "details": {
+            "campaign_id": "camp_flash_item_002_20260901",
+            "target_product": "Type-C Braided Cable 2m",
+            "strategy": "Automated Volume Push & Cross-Sell Bundle",
+            "status": "active_broadcasted_to_ai_buyers"
+        }
+    },
+    {
+        "timestamp": "2026-09-01T03:12:45.721731",
+        "event_type": "CHECKOUT_SUCCESS",
+        "details": {
+            "buyer": "dashboard_robot_client",
+            "subtotal_INR": 1798,
+            "discount_applied_INR": 179,
+            "final_amount_INR": 1619,
+            "razorpay_order": "order_test_rcpt_dashbo_1619"
+        }
+    },
+    {
+        "timestamp": "2026-09-01T03:12:48.233998",
+        "event_type": "CAMPAIGN_ORCHESTRATED",
+        "details": {
+            "campaign_id": "camp_flash_item_002_20260901",
+            "target_product": "Type-C Braided Cable 2m",
+            "strategy": "Automated Volume Push & Cross-Sell Bundle",
+            "status": "active_broadcasted_to_ai_buyers"
+        }
+    },
+    {
+        "timestamp": "2026-09-01T03:17:23.445229",
+        "event_type": "CHECKOUT_SUCCESS",
+        "details": {
+            "buyer": "dashboard_robot_client",
+            "subtotal_INR": 1798,
+            "discount_applied_INR": 179,
+            "final_amount_INR": 1619,
+            "razorpay_order": "order_test_rcpt_dashbo_1619"
+        }
+    },
+    {
+        "timestamp": "2026-09-01T03:17:27.540346",
+        "event_type": "CAMPAIGN_ORCHESTRATED",
+        "details": {
+            "campaign_id": "camp_flash_item_002_20260901",
+            "target_product": "Type-C Braided Cable 2m",
+            "strategy": "Automated Volume Push & Cross-Sell Bundle",
+            "status": "active_broadcasted_to_ai_buyers"
+        }
+    },
+    {
+        "timestamp": "2026-09-01T05:41:38.176273",
+        "event_type": "CHECKOUT_FAILED",
+        "details": {
+            "buyer": "string",
+            "reason": "Product string not found."
+        }
+    },
+    {
+        "timestamp": "2026-09-01T05:58:54.053932",
+        "event_type": "CHECKOUT_SUCCESS",
+        "details": {
+            "buyer": "test_robot_002",
+            "subtotal_INR": 1798,
+            "discount_applied_INR": 179,
+            "final_amount_INR": 1619,
+            "razorpay_order": "order_test_rcpt_test_r_1619"
+        }
+    },
+    {
+        "timestamp": "2026-09-01T06:01:18.764207",
+        "event_type": "CAMPAIGN_ORCHESTRATED",
+        "details": {
+            "campaign_id": "camp_flash_item_002_20260901",
+            "target_product": "Type-C Braided Cable 2m",
+            "strategy": "Automated Volume Push & Cross-Sell Bundle",
+            "status": "active_broadcasted_to_ai_buyers"
+        }
+    },
+    {
+        "timestamp": "2026-09-01T06:15:52.890431",
+        "event_type": "A2A_NEGOTIATION",
+        "details": {
+            "buyer": "test_negotiator_agent",
+            "result": {
+                "status": "accepted",
+                "approved_amount_inr": 1528.3,
+                "negotiation_message": "Counter-offer accepted at 15.0% discount by Merchant UAP Node."
+            }
+        }
+    },
+    {
+        "timestamp": "2026-09-01T06:23:47.677620",
+        "event_type": "A2A_NEGOTIATION",
+        "details": {
+            "buyer": "test_agent_buyer_001",
+            "result": {
+                "status": "accepted",
+                "approved_amount_inr": 1528.3,
+                "negotiation_message": "Counter-offer accepted at 15.0% discount by Merchant UAP Node."
+            }
+        }
+    }
+]
